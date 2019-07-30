@@ -26,6 +26,8 @@
 .elementor-501 .elementor-element.elementor-element-kniafys > .elementor-widget-container {margin: 0px 0px 40px 0px;}
 .elementor-501 .elementor-element.elementor-element-jmqueum a.elementor-button, .elementor-501 .elementor-element.elementor-element-jmqueum .elementor-button {font-size: 14px;text-transform: uppercase;letter-spacing: 1px;color: #fff;background-color: #84c340;border-radius: 1px 1px 1px 1px;padding: 18px 35px 18px 35px;}
 .elementor-501 .elementor-element.elementor-element-jmqueum a.elementor-button:hover, .elementor-501 .elementor-element.elementor-element-jmqueum .elementor-button:hover, .elementor-501 .elementor-element.elementor-element-jmqueum a.elementor-button:focus, .elementor-501 .elementor-element.elementor-element-jmqueum .elementor-button:focus {color: #292929;background-color: #f1f1f1;}
+@media (min-width:768px) {.elementor-501 .elementor-element.elementor-element-etyqday {width: 42.281%;}
+	.elementor-501 .elementor-element.elementor-element-nqzkdoo {width: 57.719%;}}
 @media (max-width:1024px) {.elementor-501 .elementor-element.elementor-element-fgedytl {text-align: center;}
 	.elementor-501 .elementor-element.elementor-element-qplwrtj {text-align: center;}
 	.elementor-501 .elementor-element.elementor-element-blimtkj {text-align: center;}}
