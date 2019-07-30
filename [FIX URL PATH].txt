@@ -1,0 +1,11 @@
+from "/WP2Static_2019-04-17_09.21.24/[FIX URL PATH]/"
+
+    1.    
+        FIND:       ../../../../../wp
+        REPLACE:    ../wp
+    2.
+        FIND:       ../../../../wp
+        REPLACE:    wp
+    3.
+        FIND:       ../../../../
+        REPLACE:    
