@@ -1,11 +1,8 @@
-from "/WP2Static_2019-04-17_09.21.24/[FIX URL PATH]/"
 
-    1.    
-        FIND:       ../../../../../wp
-        REPLACE:    ../wp
-    2.
-        FIND:       ../../../../wp
-        REPLACE:    wp
-    3.
-        FIND:       ../../../../
+
+1.    index.html
+        FIND:       https://em-consulting.gq/2019-04-24/
         REPLACE:    
+2.    */index.html
+        FIND:       https://em-consulting.gq/2019-04-24/
+        REPLACE:    ../
