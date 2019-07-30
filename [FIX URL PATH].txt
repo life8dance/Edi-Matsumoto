@@ -1,20 +1,43 @@
 FIX URL PATH (absolute to relative)
 
-1.  index.html
+1.  
+    /                                   index.html
         FIND:       https://em-consulting.gq/
         REPLACE:    
 
 2.  
-                           about/index.html
-                         contact/index.html
-       finders-course-faciliated/index.html
-    finders-course-local-meetups/index.html
-             individual-coaching/index.html
-                        programs/index.html
-                    testimonials/index.html
-					
+    /ja/                                index.html
+
+    /about/                             index.html
+    /contact/                           index.html
+    /finders-course-faciliated/         index.html
+    /finders-course-local-meetups/      index.html
+    /individual-coaching/               index.html
+    /programs/                          index.html
+    /testimonials/                      index.html
+
+
         FIND:       https://em-consulting.gq/
         REPLACE:    ../
 
         FIND:       https://em-consulting.gq	(only 1 instance for  breadcrumb Home icon) 
         REPLACE:    ../
+
+3.  
+    /ja/about/                          index.html
+    /ja/contact/                        index.html
+    /ja/finders-course-faciliated/      index.html
+    /ja/finders-course-local-meetups/   index.html
+    /ja/individual-coaching/            index.html
+    /ja/programs/                       index.html
+    /ja/testimonials/                   index.html
+
+    /language-switcher/current-language/index.html
+    /language-switcher/english/         index.html
+    /language-switcher/japanese/        index.html
+
+        FIND:       https://em-consulting.gq/
+        REPLACE:    ../../
+
+        FIND:       ../../ja/
+        REPLACE     ../
