@@ -1,8 +1,20 @@
+FIX URL PATH (absolute to relative)
 
-
-1.    index.html
-        FIND:       https://em-consulting.gq/2019-04-24/
+1.  index.html
+        FIND:       https://em-consulting.gq/
         REPLACE:    
-2.    */index.html
-        FIND:       https://em-consulting.gq/2019-04-24/
+
+2.  
+                           about/index.html
+                         contact/index.html
+       finders-course-faciliated/index.html
+    finders-course-local-meetups/index.html
+             individual-coaching/index.html
+                        programs/index.html
+                    testimonials/index.html
+					
+        FIND:       https://em-consulting.gq/
+        REPLACE:    ../
+
+        FIND:       https://em-consulting.gq	(only 1 instance for  breadcrumb Home icon) 
         REPLACE:    ../
